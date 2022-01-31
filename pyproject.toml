@@ -1,0 +1,21 @@
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "Hudl test suite"
+version = "0.1.0"
+description = ""
+authors = ["Mariia Fomina <mary.fomina.qa@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
